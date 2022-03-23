@@ -1,4 +1,11 @@
-const eris = require('eris');
-const er = Eris.client() 
+const { Client } = require('eris');
 
-module.exports = class App extends er
+module.exports = class App extends Client {
+
+  constructor(token, options) {
+    super(token, options)
+    this.commands = new 
+  }
+};
+
+
